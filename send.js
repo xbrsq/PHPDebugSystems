@@ -1,4 +1,4 @@
-
+caIterator = 0;
 
 function add_row(){
     var table = document.getElementById("maintable");
