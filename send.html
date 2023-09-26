@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="send.js"></script>
+    </head>
+    <body>
+        <h1>
+            Send Form Data
+        </h1>
+        <form id="form" onsubmit="set_vals">
+            <select id="cars" name="cars">
+                <option value="GET">GET</option>
+                <option value="POST">POST</option>
+            </select>
+            <input type="text" id="action">
+            <br>
+            <table id="maintable">
+                <tr>
+                    <th>
+                        Key
+                    </th>
+                    <th>
+                        Value
+                    </th>
+                    <th>
+                        Operations
+                    </th>
+                </tr>
+            </table>
+            <input type="submit">
+        </form>
+    </body>
+</html>
